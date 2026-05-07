@@ -129,30 +129,5 @@ diameter_mm = diameter_px × mean_ratio
 confidence = 1 - (std_ratio / mean_ratio) × weight
 ```
 
-## 🐛 Hata Yönetimi
-
-- Kalibrasyon başarısız olursa → programı durdur
-- Ölçüm yapılmayan görüntüler → atlama ve devam
-- Eksik görüntü dosyaları → hata mesajı
-
-## 👨‍💻 Teknolojiler
-
-- **OpenCV:** Görüntü işleme ve çap algılama
-- **Python:** Programlama dili
-- **CSV:** Veri depolama ve raporlama
-- **Dataclasses:** Veri yapıları
-
-## 📝 Lisans
-
-Bu proje İnsan Kaynakları/Staj programı altında geliştirilmiştir.
-
 **Yazar:** 2024-06-01
 
-## 🚀 Gelecek İyileştirmeler
-
-- [ ] Batch işleme desteği
-- [ ] Web arayüzü (Flask/Django)
-- [ ] Gerçek zamanlı kamera desteği
-- [ ] Birden fazla para algılama
-- [ ] İstatistiksel analiz (min/max/avg)
-- [ ] Kalibrasyonu dosyaya kaydetme/yükleme
